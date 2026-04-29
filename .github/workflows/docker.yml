@@ -19,7 +19,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker Image
-      run: docker build -t jayaramgopi143-code/my-web-app .
+      run: docker build -t jayaramgopi143/my-web-app .
 
     - name: Push Docker Image
-      run: docker push jayaramgopi143-code/my-web-app
+      run: docker push jayaramgopi143/my-web-app
